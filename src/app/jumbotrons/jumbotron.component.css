@@ -1,0 +1,27 @@
+.firstJT {
+    background-image: url(../../assets/JT1.webp)!important;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.thirdJT {
+    background-image: url(../../assets/JT3.webp)!important;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.fourthJT {
+    background-image: url(../../assets/JT4.webp)!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fifthJT {
+    background-image: url(../../assets/JT5.webp)!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+

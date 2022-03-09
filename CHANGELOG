@@ -1,0 +1,19 @@
+3/3/22
+Main features:
+  Implemented chegg-user-info.component using data from a backend server.
+
+2/24/22
+Main features: 
+  Added components to read and sell layouts: "jumbotron4", "jumbotron5", "Cardrow3", "Cardrow4"
+  Created 2 new mock card lists for the new card rows: "mock_card3_list.ts", "mock_card4_list.ts"
+  Figured out how to stretch the jumbotron images but they still arent the right size.
+
+
+2/17/22
+Main features:
+  Created routing components : "home", "book-rent&buy", "books-read", "books-return", and "books-sell"
+  Used flex-row and flex-col to style home page layout.
+  
+Bonus features: 
+  Created jumbotron components that will be properly implemented later.
+  

@@ -1,0 +1,14 @@
+.topnav2 {
+    outline-color:rgb(247, 202, 89);
+    outline-width: 3px;
+    outline-style: solid;
+    border-radius: 4px;
+    margin-top: 5px;
+
+}
+
+.topnav2button {
+    background-color: rgb(235, 113, 0);
+    color: white;
+    border-color:rgb(235, 113, 0)
+}

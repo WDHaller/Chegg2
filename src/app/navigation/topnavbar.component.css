@@ -1,0 +1,15 @@
+.mainnavbarbutton {
+    color: rgb(235, 113, 0);
+    font-weight: bold;
+    padding-left: 340px;
+    font-size: 30px;
+}
+
+.next4buttons {
+    padding-left: 200px;
+    color: black;
+}
+
+.last3buttons {
+    padding-left: 250px
+}
