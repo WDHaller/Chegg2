@@ -14,7 +14,7 @@ export const mock_card_list = [
     {
         img: "/assets/thumbnail3.png",
         title: "Professional proofreading",
-        text: "Recieve detaild comments from real writing experts on your assignment's thesis, style, and more—within 48 hours.",
+        text: "Recieve detailed comments from real writing experts on your assignment's thesis, style, and more—within 48 hours.",
         link: "Learn more →"
     }
 ]
