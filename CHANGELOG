@@ -1,3 +1,9 @@
+3/10/22
+Main features:
+  Replaced mock_card_list.ts with a backend server list.
+  Created cards1.service.ts to communicate with the website.
+  Replace the ngFor loop in home-layout.component.ts with ngOnInIt.
+
 3/3/22
 Main features:
   Implemented chegg-user-info.component using data from a backend server.
