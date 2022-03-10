@@ -2,7 +2,6 @@ import { Component, OnInit } from "@angular/core";
 import { CardItemModel } from "../verticalcards/card-item.model";
 import { Cards1Service } from "../verticalcards/cards1.service";
 import { mock_card2_list } from "../verticalcards/mock_card2_list";
-import { mock_card_list } from "../verticalcards/mock_card_list";
 
 @Component({
   selector: 'chegg-home-layout',
