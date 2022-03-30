@@ -22,6 +22,11 @@ import { JumboTron4Component } from './jumbotrons/jumbotron4.component';
 import { JumboTron5Component } from './jumbotrons/jumbotron5.component';
 import { HttpClientModule } from '@angular/common/http'
 import { CheggUserInfoComponent } from './user-info/chegg-user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -48,7 +53,9 @@ import { CheggUserInfoComponent } from './user-info/chegg-user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

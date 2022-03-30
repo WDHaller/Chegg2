@@ -1,3 +1,9 @@
+3/24/22
+Main features:
+  Implemented a Firebase server to host the website
+  Changed HTTP reliance in cards1.service.ts
+  
+
 3/10/22
 Main features:
   Replaced mock_card_list.ts with a backend server list.

@@ -1,19 +1,18 @@
-import { HttpClient } from "@angular/common/http";
+
 import { Injectable } from "@angular/core";
 import { CardItemModel } from "./card-item.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable(
     {providedIn: 'root'}
 )
 export class Cards1Service {
-    private baseURL:string = "https://chegg-app-de05e-default-rtdb.firebaseio.com/";
-    private cards1EndPoint:string = "cards1.json"
-
-    constructor(private http:HttpClient) {
+   
+    constructor(private db: AngularFireDatabase) {
 
     }
 
-    getCards() {
-        return this.http.get<CardItemModel []>(this.baseURL + this.cards1EndPoint);
+    public getCards() {
+        return this.db.list<CardItemModel>("cards1").valueChanges();
     }
 }

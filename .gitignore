@@ -1,2 +1,9 @@
 node_modules
-.angular/cache
+.angular
+/dist
+/tmp
+.vscode/*
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
