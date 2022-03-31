@@ -1,1 +1,41 @@
-<p>add-card works!</p>
+<div class="containter">
+    <div class="row">
+        <div class="col-8">
+            <form #cardForm="ngForm" (ngSubmit)="addCard()">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Text:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Link:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <button class="btn" type="submit">
+                    Create Card
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>

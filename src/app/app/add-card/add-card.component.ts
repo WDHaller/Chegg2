@@ -12,4 +12,8 @@ export class AddCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addCard() {
+    console.log("You presed add Card")
+  }
+
 }
