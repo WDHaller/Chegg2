@@ -1,37 +1,37 @@
 <div class="containter">
     <div class="row">
         <div class="col-8">
-            <form #cardForm="ngForm" (ngSubmit)="addCard()">
+            <form #cardForm="ngForm" (ngSubmit)="addCard(cardForm.value)">
 
                 <div class="input-group">
                     <span class="input-group-text">
                         Image Path:
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="img" required="">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">
                         Title:
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="title" required="">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">
                         Text:
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="text">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">
                         Link:
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="link">
                 </div>
 
-                <button class="btn" type="submit">
+                <button class="btn" type="submit" [disabled]="!cardForm.valid">
                     Create Card
                 </button>
 

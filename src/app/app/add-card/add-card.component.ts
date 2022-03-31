@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CardItemModel } from 'src/app/verticalcards/card-item.model';
 
 @Component({
   selector: 'chegg-add-card',
@@ -12,8 +13,10 @@ export class AddCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  addCard() {
-    console.log("You presed add Card")
+  addCard(card:CardItemModel) {
+    console.log("You presed add Card");
+    console.log(card);
+
   }
 
 }
