@@ -1,3 +1,8 @@
+3/31/22
+Main features:
+  Add support for directly adding new cards to the realtime database from the website
+  Modified cards1.service.ts, adc-card.component.html, and add-card.component.ts
+
 3/24/22
 Main features:
   Implemented a Firebase server to host the website
