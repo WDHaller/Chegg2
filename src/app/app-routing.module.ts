@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './routingcomponents/home-layout.component';
 import { BooksReadLayoutComponent } from './routingcomponents/books-read-layout.component';
 import { BooksReturnLayoutComponent } from './routingcomponents/books-return-layout.component';
 import { BooksSellLayoutComponent } from './routingcomponents/books-sell-layout.component';
+import { AddCardComponent } from './app/add-card/add-card.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -13,7 +14,8 @@ const routes:Routes = [
   {path: 'books-rent&buy', component:BooksRentBuyLayoutComponent},
   {path: 'books-read', component:BooksReadLayoutComponent},
   {path: 'books-return', component:BooksReturnLayoutComponent},
-  {path: 'books-sell', component:BooksSellLayoutComponent}
+  {path: 'books-sell', component:BooksSellLayoutComponent},
+  {path: 'admin', component: AddCardComponent}
 
 
 ];

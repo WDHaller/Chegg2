@@ -27,6 +27,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddCardComponent } from './app/add-card/add-card.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     BooksReadLayoutComponent,
     JumboTron4Component,
     JumboTron5Component,
-    CheggUserInfoComponent
+    CheggUserInfoComponent,
+    AddCardComponent
     
   ],
   imports: [
