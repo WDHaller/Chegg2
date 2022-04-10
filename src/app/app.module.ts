@@ -29,6 +29,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddCardComponent } from './app/add-card/add-card.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { FormsModule } from '@angular/forms';
     JumboTron4Component,
     JumboTron5Component,
     CheggUserInfoComponent,
-    AddCardComponent
+    AddCardComponent,
+    AuthenticationComponent
     
   ],
   imports: [

@@ -1,3 +1,8 @@
+4/12/2022
+Main features:
+Implement support for authentication and account creation.
+Created authentication.service.ts and authentication.component .ts , .html, and .css
+
 3/31/22
 Main features:
   Add support for directly adding new cards to the realtime database from the website
